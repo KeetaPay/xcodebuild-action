@@ -234,6 +234,7 @@ async function main() {
     addFlagArg('skip-unavailable-actions', 'skipUnavailableActions');
     addFlagArg('allow-provisioning-updates', 'allowProvisioningUpdates');
     addFlagArg('allow-provisioning-device-registration', 'allowProvisioningDeviceRegistration');
+    addInputArg('scm-provider', 'scmProvider');
     const buildSettings = core.getInput('build-settings');
     if (buildSettings)
         xcodebuildArgs.push(...buildSettings.split(' ').map(v => { return { name: v }; }));
