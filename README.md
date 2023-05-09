@@ -159,6 +159,10 @@ Default: `true`
 Whether `xcpretty` should use colored output (e.g. `xcpretty --color`).<br/>
 Default: `true`
 
+### `scm-provider`
+
+Which implementation to use for Git operations (system/xcode)
+
 
 ## Outputs
 
